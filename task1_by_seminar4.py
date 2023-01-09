@@ -8,7 +8,7 @@ import itertools
 k = randint(2, 5)
 
 def get_ratios(k):
-    ratios = [randint(0, 10) for i in range (k + 1)]
+    ratios = [randint(0, 100) for i in range (k + 1)]
     while ratios[0] == 0:
         ratios[0] = randint(1, 10) 
     return ratios
